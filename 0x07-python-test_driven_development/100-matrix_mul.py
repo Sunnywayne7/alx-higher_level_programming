@@ -54,7 +54,7 @@ def matrix_mul(m_a, m_b):
     for i in range(len(m_b[0])):
         my_row = []
         for j in range(len(m_b)):
-            my_row.append(m_b[j][i])
+            my_row.append(m_b[j][i]
         matrix1.append(my_row)
 
     matrix2 = []

@@ -2,7 +2,7 @@
 const process = require('process');
 let len = process.argv.length;
 
-if (len < 3) {
+if (typeof process.argv[2] == 'undefined') {
 	console.log("No argument")
 }
 
